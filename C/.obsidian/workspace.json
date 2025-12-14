@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "8055a8b734045fa7",
+    "type": "split",
+    "children": [
+      {
+        "id": "fdc55c8176eff67f",
+        "type": "tabs",
+        "dimension": 56.57587548638132,
+        "children": [
+          {
+            "id": "77275172e4457697",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Data Types.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Advanced Data Types"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d82f4e2faa4f0116",
+        "type": "tabs",
+        "dimension": 43.42412451361868,
+        "children": [
+          {
+            "id": "35c92bbc53383505",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c765071ab26b5f96",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffa1407a9ccf15dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c254a02f5ef97be4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f669ad2d3d37c533",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "14a66a702e65e75c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "14fe6b9befafd15d",
+    "type": "split",
+    "children": [
+      {
+        "id": "987136b7b9372640",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "468a8b769e7783bf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "global variables, extern vs static.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for global variables, extern vs static"
+            }
+          },
+          {
+            "id": "62cc148a50255bbf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "global variables, extern vs static.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from global variables, extern vs static"
+            }
+          },
+          {
+            "id": "4c4d866fd80284bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "eaa68b7c28ae1ad5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f9bd81742362d88a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "global variables, extern vs static.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of global variables, extern vs static"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "77275172e4457697",
+  "lastOpenFiles": [
+    "global variables, extern vs static.md",
+    "Compile and Make File.md",
+    "Welcome.md",
+    "Heap and Stack Memory Allocation.md",
+    "Storage Classes.md",
+    "Advanced Data Types.md"
+  ]
+}
