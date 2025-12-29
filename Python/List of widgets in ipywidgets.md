@@ -18,13 +18,13 @@ Widgets are interactive Python objects that appear in the notebook’s output ar
 
 ### **Numeric Widgets**
 
-|Widget|Description|Example|
-|---|---|---|
-|`IntSlider`|Slider for integers|`widgets.IntSlider(value=5, min=0, max=10)`|
-|`FloatSlider`|Slider for floats|`widgets.FloatSlider(value=0.5, min=0.0, max=1.0)`|
-|`IntText`|Text input for integers|`widgets.IntText(value=10)`|
-|`FloatText`|Text input for floats|`widgets.FloatText(value=3.14)`|
-|`IntProgress`|Progress bar|`widgets.IntProgress(value=20, min=0, max=100)`|
+| Widget        | Description             | Example                                            |
+| ------------- | ----------------------- | -------------------------------------------------- |
+| `IntSlider`   | Slider for integers     | `widgets.IntSlider(value=5, min=0, max=10)`        |
+| `FloatSlider` | Slider for floats       | `widgets.FloatSlider(value=0.5, min=0.0, max=1.0)` |
+| `IntText`     | Text input for integers | `widgets.IntText(value=10)`                        |
+| `FloatText`   | Text input for floats   | `widgets.FloatText(value=3.14)`                    |
+| `IntProgress` | Progress bar            | `widgets.IntProgress(value=20, min=0, max=100)`    |
 
 ---
 ## 🔤 **Text & Display Widgets**
