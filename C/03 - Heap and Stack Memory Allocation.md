@@ -9,7 +9,7 @@ In C programming, stack and heap memory are two important types of memory storag
 
 ## Heap Memory:
 
-1. **Storage**: The heap is a large pool of memory used for dynamic memory allocation, where memory can be allocated and deallocated at runtime using functions like ==malloc()== and ==free()==, e.g. arrays and structs that can change size dynamically
+1. **Storage**: The heap is a large pool of memory used for dynamic memory allocation, where memory can be allocated and deallocated at runtime using functions like ==`malloc()`== and ==`free()`==, e.g. arrays and structs that can change size dynamically
 2. **Global Scope**: Unlike stack variables, heap variables remain allocated until explicitly freed, allowing them to be accessed from anywhere within the program.
 3. **Management**: The heap is managed manually by the programmer, which means you must explicitly allocate and free memory to avoid memory leaks.
 4. **Size Limitations**: The only limitation on heap memory is the available physical memory on the machine, making it suitable for large data structures.

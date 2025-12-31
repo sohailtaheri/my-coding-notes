@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "3e2d06868e72c88f",
+        "id": "75061449bbd9462b",
         "type": "tabs",
         "children": [
           {
-            "id": "2439d013c1a8c7eb",
+            "id": "da7c164dabe00ab6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Big O Notation, Note 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Big O Notation, Note 1"
-            }
-          },
-          {
-            "id": "7029ea83964d063f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/linked_list_key_takeaways.md",
+                "file": "C/05 - Advanced Data Types - Part 1.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linked_list_key_takeaways"
+              "title": "05 - Advanced Data Types - Part 1"
+            }
+          },
+          {
+            "id": "acfb90276f6dc8b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C/06 - Advanced Data Types - Part 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06 - Advanced Data Types - Part 2"
             }
           }
         ],
@@ -55,8 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false
+                "sortOrder": "alphabetical",
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -195,8 +195,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "7029ea83964d063f",
+  "active": "acfb90276f6dc8b3",
   "lastOpenFiles": [
+    "C/05 - Advanced Data Types - Part 1.md",
+    "C/06 - Advanced Data Types - Part 2.md",
+    "C/04 - Storage Classes.md",
+    "C/03 - Heap and Stack Memory Allocation.md",
+    "C/02 - global variables, extern vs static.md",
+    "C/01 - Compile and Make File.md",
+    "C/Welcome.md",
+    "Algorithms/Big O Notation, Note 1.md",
+    "Algorithms/linked_list_key_takeaways.md",
     "Python/List of widgets in ipywidgets.md",
     "Soft Skills/How to Think About Communicating and Sharing Your Work.md",
     "Soft Skills",
@@ -207,7 +216,6 @@
     "Python/Python Comprehentions.md",
     "Python/Tuple vs List vs Set.md",
     "Python/Set functions.md",
-    "Algorithms/linked_list_key_takeaways.md",
     "Algorithms/Array vs Linked List; Insert and Delete Operations.md",
     "Algorithms/Insert and Appending in arrays.md",
     "Algorithms/Heterogeneous Lists in Python.md",
@@ -217,10 +225,8 @@
     "Algorithms/doubly_linked_list.py",
     "Algorithms/singly_linked_list.py",
     "README.md",
-    "Algorithms/Big O Notation, Note 1.md",
     "Algorithms/Big O Notation, Note 2.md",
     "Algorithms",
-    "C/Welcome.md",
     "C",
     "Welcome.md",
     "Untitled.canvas",
