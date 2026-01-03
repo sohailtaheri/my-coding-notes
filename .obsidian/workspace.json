@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/11 - Using Bit-Fields in C to Pack Data.md",
+                "file": "C/12 - Advanced Flow Control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 - Using Bit-Fields in C to Pack Data"
+              "title": "12 - Advanced Flow Control"
             }
           }
         ]
@@ -182,8 +182,9 @@
   },
   "active": "390c9be7d1497d54",
   "lastOpenFiles": [
-    "C/10 - Binary Data Types and Integer Sizes in C.md",
     "C/11 - Using Bit-Fields in C to Pack Data.md",
+    "C/12 - Advanced Flow Control.md",
+    "C/10 - Binary Data Types and Integer Sizes in C.md",
     "C/09 - Complementary Notes on 'const'.md",
     "C/08 - Type Qualifiers.md",
     "Markdown Cheat Sheet.md",
@@ -208,7 +209,6 @@
     "Python/Set functions.md",
     "Algorithms/Array vs Linked List; Insert and Delete Operations.md",
     "Algorithms/Insert and Appending in arrays.md",
-    "Algorithms/Heterogeneous Lists in Python.md",
     "Python",
     "Algorithms/comparison_demo.py",
     "Algorithms/doubly_linked_list.py",
