@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/09 - Complementary Notes on 'const'.md",
+                "file": "C/11 - Using Bit-Fields in C to Pack Data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09 - Complementary Notes on 'const'"
+              "title": "11 - Using Bit-Fields in C to Pack Data"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#define",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,10 +180,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "ce86d56662b3ba9c",
+  "active": "390c9be7d1497d54",
   "lastOpenFiles": [
-    "C/08 - Type Qualifiers.md",
+    "C/10 - Binary Data Types and Integer Sizes in C.md",
+    "C/11 - Using Bit-Fields in C to Pack Data.md",
     "C/09 - Complementary Notes on 'const'.md",
+    "C/08 - Type Qualifiers.md",
     "Markdown Cheat Sheet.md",
     "C/06 - Advanced Data Types - Part 2.md",
     "C/05 - Advanced Data Types - Part 1.md",
@@ -208,12 +209,10 @@
     "Algorithms/Array vs Linked List; Insert and Delete Operations.md",
     "Algorithms/Insert and Appending in arrays.md",
     "Algorithms/Heterogeneous Lists in Python.md",
-    "Algorithms/Python, Recursive vs Iterative Algorithms.md",
     "Python",
     "Algorithms/comparison_demo.py",
     "Algorithms/doubly_linked_list.py",
     "Algorithms/singly_linked_list.py",
-    "README.md",
     "Algorithms",
     "C",
     "Untitled.canvas",

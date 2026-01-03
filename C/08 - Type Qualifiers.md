@@ -128,7 +128,7 @@ Typical example: **read-only hardware registers**.
 ---
 ## 4. `restrict` Qualifier (C99)
 
-restrict is a **promise to the compiler** that for the lifetime of a pointer, **no other pointer will access the same object**.
+restrict is a **promise to the compiler** that for the lifetime of a ==pointer==, **no other pointer will access the same object**. ==So it is only applied on pointer data types.==
 
 ```c
 void add(int *restrict a, int *restrict b, int *restrict c) {
