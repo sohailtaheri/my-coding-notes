@@ -1,8 +1,8 @@
 
-Here’s a **hands-on “cheat sheet”** / quick reference for using **ipywidgets** in Jupyter notebooks — covering common widget types, how to display them, layout options, and basic interaction patterns.
+Here’s a **hands-on “cheat sheet”** / quick reference for using **`ipywidgets`** in Jupyter notebooks — covering common widget types, how to display them, layout options, and basic interaction patterns.
 
 ---
-## 🧰 **ipywidgets Cheat Sheet**
+## 🧰 **`ipywidgets` Cheat Sheet**
 
 ### 📌 **Import Essentials**
 

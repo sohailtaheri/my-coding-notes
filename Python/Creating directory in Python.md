@@ -2,7 +2,7 @@ Here are the common ways to **create a directory in Python** 📁🐍
 
 ---
 
-### **✅ Modern & recommended (** **pathlib** )
+### **✅ Modern & recommended (** **`pathlib`** )
 
 ```python
 from pathlib import Path
@@ -18,7 +18,7 @@ Path("a/b/c").mkdir(parents=True, exist_ok=True)
 
 ---
 
-### **✅ Classic ( os )
+### **✅ Classic ( `os` )**
 
 
 ```python
