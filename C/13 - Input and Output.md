@@ -265,3 +265,60 @@ int main() {
 
 - `perror()` - print error message
 - `remove()`, `rename()` - file management
+
+## ► 7. Difference Between `printf()` and `fprintf()`
+
+The main difference is **where they write their output**:
+### printf
+
+- Writes to **stdout** (standard output) only
+- Shorter syntax since you don't specify the stream
+- Most common for normal program output
+
+```c
+printf("Hello, world!\n");
+// Same as: fprintf(stdout, "Hello, world!\n");
+```
+
+### fprintf
+
+- Writes to **any file stream** you specify
+- Requires you to provide the stream as the first argument
+- More flexible - can write to files, stderr, stdout, etc.
+
+```c
+fprintf(stderr, "Error message\n");    // to standard error
+fprintf(stdout, "Normal output\n");    // to standard output
+fprintf(myfile, "Log entry\n");        // to a file
+```
+
+**stderr** is one of three standard streams in C (the others being `stdin` for input and `stdout` for standard output). It's specifically designed for error messages and diagnostic output.
+
+**Why use stderr instead of stdout?**
+
+When you write to `stderr`, the output:
+
+- Can be separated from normal program output (which goes to `stdout`)
+- Typically appears immediately, even if `stdout` is buffered
+- Can be redirected separately in the shell
+
+For example:
+
+```c
+fprintf(stderr, "Error: File not found\n");
+fprintf(stdout, "Processing complete\n");  // or just printf(...)
+```
+### Quick comparison:
+
+```c
+// These are equivalent:
+printf("Score: %d\n", score);
+fprintf(stdout, "Score: %d\n", score);
+
+// But fprintf can do this too:
+FILE *logfile = fopen("log.txt", "w");
+fprintf(logfile, "Score: %d\n", score);  // writes to file
+fclose(logfile);
+```
+
+**In practice:** Use `printf()` for normal output to the screen, and `fprintf()` when you need to write to error streams or files. Think of `printf()` as a convenient shortcut for `fprintf(stdout, ...)`.
