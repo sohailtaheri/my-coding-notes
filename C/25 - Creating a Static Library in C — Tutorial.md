@@ -32,7 +32,7 @@ source files (.c)  →  object files (.o)  →  archive (.a)  →  link into exe
 
 Create the functions you want to package. For this example, we'll build a simple `mathutils` library.
 
-**mathutils.h** (the public interface)
+**`mathutils.h`** (the public interface)
 
 ```c
 #ifndef MATHUTILS_H
@@ -46,7 +46,7 @@ double divide(double a, double b);
 #endif
 ```
 
-**mathutils.c** (the implementation)
+**`mathutils.c`** (the implementation)
 
 ```c
 #include "mathutils.h"

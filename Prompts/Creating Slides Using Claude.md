@@ -1,0 +1,13 @@
+1. **The Complete Presentation Blueprint**: “Act as a professional presentation consultant. Create a complete presentation blueprint for [topic]. Define the objective, target audience, key message, slide flow, and number of slides. Ensure the structure is logical, engaging, and professional.”
+2. **Slide Structure & Flow Architect**: “Design a slide-by-slide structure for a presentation on [topic]. For each slide, provide a clear slide title and explain the purpose of that slide so the presentation flows naturally from start to finish.”
+3. **The Story-Based Presentation Builder**: “Turn the topic [topic] into a compelling presentation using a clear narrative structure (hook → problem → insight → solution → takeaway). Make the presentation engaging while remaining professional and informative.”
+4. **Visual Direction & Design**: “Suggest professional visual and design guidance for each slide of this presentation on [topic]. Recommend layout styles, charts, diagrams, icons, and visuals that improve clarity and make the slides look clean and modern.”
+5. **The Full Slide Content Generator**: “Create full content for each slide of a presentation on [topic]. Write concise, presentation-ready bullet points for every slide, ensuring clarity, professionalism, and easy understanding. Audience: [describe audience].”
+6. **Slide Simplification & Clarity Editor**: “Review the following presentation content and rewrite it so it is slide-friendly. Reduce text, sharpen key points, improve clarity, and ensure each slide communicates one clear idea. Content: [paste content].”
+7. **Hook Generator**: “Generate 5 powerful opening slides for a presentation on [topic]. Make them attention-grabbing, curiosity-driven, and impactful.”
+8. **Audience Alignment Optimiser**: “Analyse the target audience for [topic] and refine the presentation content to match their needs, expectations, and level of understanding.”
+9. **Data Visualisation Assistant**: “Convert the following data into presentation-ready insights. Suggest the best charts, visuals, and key takeaways for slides. Data: [paste data].”
+10. **Persuasion Enhancer**: “Improve this presentation by making it more persuasive. Strengthen arguments, add credibility, and make the message more convincing.”
+11. **Call-To-Action Slide Builder**: “Create 3 strong closing slides with clear and compelling calls to action for [goal].”
+12. **Executive Summary Slide**: “Summarise the entire presentation into a single powerful executive summary slide with key points and insights.”
+13. **Bonus**: Engagement Booster “Add 2–3 interactive elements like questions, polls, or examples to increase audience engagement.”
