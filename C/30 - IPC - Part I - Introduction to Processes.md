@@ -78,6 +78,42 @@ Parent: PID = 12345, child PID = 12346
 Child: PID = 12346
 ```
 
+### What `fork()` actually does
+
+When you call `fork()`, the OS creates a **clone of your process** — same code, same variables, same position in the program. From that moment forward, there are **two separate processes** both sitting right after the `fork()` call, about to execute the next line.
+
+The key is what `fork()` **returns** in each one:
+
+- In the **parent** → returns the child's PID (a number > 0)
+- In the **child** → returns `0`
+
+So the `if` statement doesn't run twice in the same process — it runs **once per process**, but each process gets a different return value and therefore takes a different branch.
+
+### Visualising it
+
+```
+main()
+  |
+  |  fork() called here
+  |
+  ●─────────────────────────────────────────────────────●
+  │  (parent process continues)      (child process starts here, as a copy)
+  │                                                     │
+  │  fork() returned child_pid > 0   fork() returned 0 │
+  │                                                     │
+  ▼                                                     ▼
+  else { ... }  ← parent branch        if (pid == 0) { ... }  ← child branch
+```
+
+They are two **independent processes** running the same code file, but taking different paths because of the return value.
+
+### A mental model that helps
+
+Think of it like a save state in a video game. `fork()` duplicates the save. Both "players" resume from the exact same point, but the game hands them different information (`0` vs. `child_pid`) so they can make different choices going forward. After that, they play completely independently — what happens to one doesn't affect the other.
+
+### Why this design?
+
+It's intentional and elegant. You write **one program**, and inside it you describe what the parent should do and what the child should do. The `if/else` on the return value of `fork()` is how you split those two personalities apart. The parent typically manages child lifecycles (`wait()`), while the child does the actual work (or calls `exec()` to become a completely different program).
 > After `fork()`, both processes run **independently** from the same point in the code. The child inherits a copy of the parent's data — changes in one do not affect the other (Copy-on-Write semantics).
 
 ---
